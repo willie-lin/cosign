@@ -34,7 +34,7 @@ require (
 	github.com/theupdateframework/go-tuf v0.0.0-20220211205608-f0c3294f63b9
 	github.com/xanzy/go-gitlab v0.55.1
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
+	golang.org/x/term v0.15.0
 	google.golang.org/api v0.70.0
 	k8s.io/api v0.23.3
 	k8s.io/apimachinery v0.23.3
@@ -55,7 +55,7 @@ require (
 	github.com/withfig/autocomplete-tools/packages/cobra v0.0.0-20220122124547-31d3821a6898
 	go.opentelemetry.io/contrib v1.3.0 // indirect
 	go.opentelemetry.io/proto/otlp v0.12.0 // indirect
-	golang.org/x/crypto v0.0.0-20220213190939-1e6e3497d506 // indirect
+	golang.org/x/crypto v0.17.0 // indirect
 )
 
 // This is temporary to address conflicting versions of Kubernetes libs in knative and GGCR.
